@@ -1,24 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---------------  CSS  --------------------->
-    <link rel="stylesheet" href="style.css">
-    <title>Weather Web App</title>
-    <!---------------  IONICONS  --------------------->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Irham Rizqan — Backend-focused developer specializing in FastAPI, JWT authentication, and simple responsive websites.">
+    <meta name="theme-color" content="#0f172a">
+    <title>Irham Rizqan | Backend Developer</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="container">
-      <div class="search_box"> 
-        <input type="text" placeholder="Enter a city name" id="city" value="Jakarta" autocomplete="off"/>
-        <button id="search"><ion-icon class="icon" name="search"></ion-icon></button>
-      </div>
-      <div id="show"></div>
-    </div>
-   <!---------------  SCRIPT  --------------------->
-   <script src="script.js"></script>  
-</body>   
+
+    <header class="hero">
+        <nav class="nav">
+            <div class="logo">IrhamR<span>.</span></div>
+            <a href="#contact" class="btn-outline">Contact</a>
+        </nav>
+
+        <div class="hero-inner">
+            <h1>Backend-Focused Developer<br><span>Building Practical Web Solutions</span></h1>
+            <p>Undergraduate student with a strong focus on backend services. I build clean and secure backend APIs, and
+                also create simple, responsive websites when needed </p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                <a href="#services" class="btn-primary">What I Do</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="services">
+        <h2>What I Do</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Backend Services</h3>
+                <p>
+                    REST API development using FastAPI with authentication, clean structure, and database integration.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Simple Websites</h3>
+                <p>
+                    Lightweight and responsive websites using HTML and CSS, suitable for landing pages or small
+                    projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section alt">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>SQLAlchemy</span>
+            <span>JWT Authentication</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="card">
+            <h3>Coffee Order Management API</h3>
+            <p>
+                Backend REST API featuring JWT authentication, role-based access,
+                product management, and order ownership logic.
+            </p>
+            <a href="https://github.com/IrhamRizqan/simple-coffee-api" target="blank" class="link"> View on GitHub </a>
+        </div>
+    </section>
+
+    <section class="cta" id="contact">
+        <h2>Let’s Work Together</h2>
+        <p> If you’re looking for someone to help with backend services or a simple website, feel free to reach out </p>
+        <div class="contact-links">
+            <a href="https://github.com/IrhamRizqan" target="blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/irhamrizqanz" target="blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Irham Rizqan</p>
+    </footer>
+
+</body>
+
 </html>
